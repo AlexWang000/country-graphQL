@@ -1,0 +1,24 @@
+{
+  "name": "country-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexWang000/country-graphQL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexWang000/country-graphQL/issues"
+  },
+  "homepage": "https://github.com/AlexWang000/country-graphQL#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.16.1",
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  }
+}
