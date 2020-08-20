@@ -156,6 +156,7 @@ const server = new ApolloServer({ typeDefs, resolvers });
 const app = express();
 server.applyMiddleware({ app });
 
-app.listen({ port: 5000 }, () =>
+const port = process.env.PORT || 5000;
+app.listen(port, () =>
   console.log('Now browse to http://localhost:5000' + server.graphqlPath)
 );
