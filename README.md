@@ -1,7 +1,7 @@
 # graphql-country
 A graphQL API for country statistics\
 The data is from World Bank open data\
-Potentially more data sources and fields will be added
+Potentially more data sources and fields will be included
 ## Supported Query
 ```graphql
 {
