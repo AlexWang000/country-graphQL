@@ -52,6 +52,6 @@ Clone this repository\
 then
 ```shell
 npm install
-npm serve
+npm run serve
 ```
 You can also navigate to localhost:5000/graphql to interact with the API
